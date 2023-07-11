@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap');
+ 
+/********************************* * ! Style rules for defult section **********************************/
+ *{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     text-transform: capitalize;
+}
+ body{
+     background: #0C1117;
+     font-family: 'Fira Sans', sans-serif;
+}
+/********************************* * ! Style rules for common componant section **********************************/
+ p{
+     color: #FFF;
+     font-size: 20px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+}
+ .container{
+     width: 1639px;
+     margin: auto;
+}
+ .btn{
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+     width: 142px;
+     height: 45px;
+     flex-shrink: 0;
+     border: none;
+     border-radius: 30px;
+     background: #003ADB;
+     box-shadow: 0px 10px 30px 0px rgba(64, 106, 255, 0.24);
+}
+ h2{
+     color: #FFF;
+     font-size: 48px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+ h3{
+     color: #FFF;
+     font-size: 32px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+ .leaner-03{
+     margin-left: 165px;
+}
+ h6{
+     color: #D0D0D0;
+     font-size: 24px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+ h5{
+     color: #727272;
+     font-size: 24px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+/********************************* * ! Style rules for navber section **********************************/
+ .socail-nav a{
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin: 0 10px;
+}
+ .socail-nav{
+     position: absolute;
+     top: 400px;
+     left: -120px;
+     transform: rotate(-90deg);
+}
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 61px 120px 0 120px;
+}
+ nav::before{
+     position: absolute;
+     content: '';
+     background: #606E7E;
+     width: 0.5px;
+     left: 60px;
+     height: 1080px;
+}
+ nav ul {
+     display: flex;
+     align-items: center;
+}
+ nav ul li{
+     margin: 0 30px;
+}
+ nav ul li a{
+     color: #FFF;
+     font-size: 20px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+ .serach{
+     margin-left: 60px;
+}
+ .logo{
+     width: 155.79px;
+     height: 51.99px;
+     flex-shrink: 0;
+}
+/********************************* * ! Style rules for..hero section **********************************/
+ .hero{
+     display: flex;
+}
+ h1{
+     color: #FFF;
+     font-size: 85px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     margin: 187px 0 29px 0;
+}
+ .tittle{
+     margin-left:238px;
+}
+ .tittle button{
+     margin: 58px 0 59px 0;
+}
+ .hero-img{
+     margin-top: 151px;
+     position: absolute;
+     width: 926px;
+     height: 620px;
+     flex-shrink: 0;
+     right: 0;
+}
+ .lenner{
+     display: flex;
+     position: relative;
+}
+ .leaner-03::before{
+     content: '';
+     background: #FFF;
+     width: 50px;
+     height: 2px;
+     flex-shrink: 0;
+     position: absolute;
+     top: 20px;
+     left: 130px;
+}
+ .leaner-01::before{
+     content: '';
+     background: #FFF;
+     width: 107px;
+     height: 2px;
+     flex-shrink: 0;
+     position: absolute;
+     background: #003ADB;
+     box-shadow: 0px 2px 14px 0px rgba(64, 140, 255, 0.24);
+     top: 20px;
+     left: 50px;
+}
+/********************************* * ! Style rules for.. do section **********************************/
+ .do-sec h2{
+     text-align: center;
+     margin-top: 166px;
+}
+ .card-parent{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 16px ;
+     margin: 79px 0 117px 0;
+}
+ .card-1 h3{
+     margin: 37px 0 36px 24px;
+}
+ .card-1 p{
+     margin: 0 16px 36px 24px ;
+}
+ .contac{
+     position: absolute;
+     color: var(--light, #F8F9FA);
+     font-size: 16px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     margin:0px 0 0px 24px;
+     top: 209px;
+     z-index: 1;
+     text-decoration-line: underline;
+}
+ .card-7 h4{
+     color: #FFF;
+     font-size: 32px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 143%;
+     letter-spacing: 0.32px;
+     text-transform: uppercase;
+     margin: 37px 0 14px 24px;
+}
+ .card-7 p{
+     margin-left: 24px;
+}
+ .card-7 button{
+     margin:30px 0 0 24px;
+}
+ .card-1{
+     height: 400px;
+     flex-shrink: 0;
+     border-radius: 4px;
+     background: #1B2837;
+     position: relative;
+}
+ .icon-1 a{
+     position: absolute;
+     border-radius: 69.5px 0px 4px 4px;
+     background: #003ADB;
+     box-shadow: 0px 10px 29px 0px rgba(64, 129, 255, 0.24);
+     display: grid;
+     place-content: center;
+     width: 136px;
+     height: 102px;
+     flex-shrink: 0;
+     right: 0;
+     top: 298px;
+}
+ .card-2{
+     overflow: hidden;
+}
+ .card-2 h3{
+     position: absolute;
+     z-index: 1;
+}
+ .card-2 p{
+     position: absolute;
+     top: 109px;
+}
+ .card-2::before{
+     content: '';
+     width: 548px;
+     height: 548px;
+     top: 21px;
+     left: 8px;
+     flex-shrink: 0;
+     position: absolute;
+     border-radius: 548px;
+     background: #003ADB;
+}
+ .icon-2 a{
+     position: absolute;
+     border-radius: 69.5px 0px 4px 4px;
+     display: grid;
+     place-content: center;
+     width: 136px;
+     height: 102px;
+     flex-shrink: 0;
+     right: 0;
+     top: 298px;
+}
+/********************************* * ! Style rules for.. work section **********************************/
+ .work-sec{
+     width: 1440px;
+     margin: auto;
+}
+ .work-parent{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 21px;
+     margin: 80px 0 113px 0;
+}
+ .last-img{
+     margin-left: -291px;
+}
+ .work-7{
+     margin-left: 66px;
+}
+ .work-img-4{
+     margin-left: 140px;
+}
+/********************************* * ! Style rules for.. paralax section **********************************/
+ .para-parent{
+     display: flex;
+     justify-content: space-between;
+}
+ .paralax{
+     background: #2B61F7;
+}
+ .para-card h2,.para-card-last h2{
+     margin-top: 91px;
+}
+ .para-card h4,.para-card-last h4{
+     color: #8FC2FF;
+     font-size: 24px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 143%;
+     letter-spacing: 0.24px;
+     text-transform: uppercase;
+     margin: 9px 0 110px 0;
+}
+ .para-card{
+     position: relative;
+}
+ .para-card::before{
+     content: '';
+     position: absolute;
+     background: #ABC4E3;
+     width: 0.5px;
+     height: 239px;
+     top: 61px;
+     left: 188px;
+}
+/********************************* * ! Style rules for.. paralax section **********************************/
+ .testo-parent{
+     display: flex;
+     margin: 122px 0 210px 0;
+}
+ .testo-box h6{
+     margin: 35px 0 8px 0;
+}
+ .testo-box h5{
+     margin-bottom: 16px;
+}
+ .testo-box p{
+     margin-bottom: 25px;
+     color: #FFF;
+     font-size: 20px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+}
+ .tittle-box{
+     margin: 43px 117px 0 70px;
+}
+ .testo-box-h3{
+     margin-top: 63px;
+     margin-bottom: 309px;
+     position: relative;
+}
+ .testo-box-h3::before{
+     top: 100px;
+     left: -20px;
+     position: absolute;
+     width: 83px;
+     height: 2px;
+     transform: rotate(90deg);
+     flex-shrink: 0;
+     content: '';
+     background: #003ADB;
+     box-shadow: 0px 2px 14px 0px rgba(64, 140, 255, 0.24);
+}
+ .testo-box-h4{
+     position: relative;
+}
+ .testo-box-h4::before{
+     content: '';
+     position: absolute;
+     bottom: 98px;
+     left: -22px;
+     width: 88px;
+     height: 2px;
+     transform: rotate(90deg);
+     flex-shrink: 0;
+     background: #FFF;
+}
+ .before-p{
+     position: relative;
+}
+ .before-p::before{
+     content: '';
+     position: absolute;
+     background: #FFF;
+     width: 88px;
+     height: 2px;
+     transform: rotate(90deg);
+     flex-shrink: 0;
+     left: 765px;
+     top: 35px;
+}
+/********************************* * ! Style rules for.. team section **********************************/
+ .team-parent{
+     display: flex;
+     gap: 56px;
+     margin: 124px 0 292px 0;
+}
+ .team-title{
+     width: 340px;
+     height: 510px;
+     flex-shrink: 0;
+     border-radius: 4px;
+     background: #2B61F7;
+     text-align: center;
+}
+ .team-title h6{
+     margin:56px 0 16px 0 ;
+}
+ .team-title h5{
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin-bottom: 62px;
+}
+ .team-title img{
+     margin-top: 160px;
+}
+/********************************* * ! Style rules for.. blog section **********************************/
+ .blog-card img{
+     width: 415px;
+     height: 415px;
+     flex-shrink: 0;
+     border-radius: 4px 90px 4px 4px;
+     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+ .blog-card{
+     width: 420px;
+     height: 714px;
+     flex-shrink: 0;
+     padding:24px 22px 23px 24px ;
+     border-radius: 0px 90px 0px 0px;
+     background: #11161C;
+     position: relative;
+}
+ .blog-card::before{
+     content: '';
+     position: absolute;
+     width: 466px;
+     height: 9px;
+     flex-shrink: 0;
+     background: #003ADB;
+     box-shadow: 0px 3px 12px 0px rgba(64, 129, 255, 0.24);
+     bottom: 0;
+     left: 0px;
+}
+ .techno{
+     position: absolute;
+     border-radius: 4px 59.5px 4px 4px;
+     background: #003ADB;
+     box-shadow: 0px 10px 29px 0px rgba(64, 129, 255, 0.24);
+     top: 386px;
+     width: 125px;
+     height: 53px;
+     flex-shrink: 0;
+     display: grid;
+     place-content: center;
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+ .blog h2{
+     text-align: center;
+     margin-bottom: 82px;
+}
+ .blog-parent{
+     display: flex;
+     gap: 29px;
+     margin-bottom: 149px;
+}
+ .blog-tittle{
+     display: flex;
+     justify-content: space-between;
+}
+ .blog-tittle h6{
+     color: #727272;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin: 24px 0 16px 0;
+}
+ .blog-card h4{
+     color: #D0D0D0;
+     font-size: 24px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin-bottom: 11px;
+}
+ .blog-p{
+     color: #9C9898;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+}
+ .blog-before{
+     position: relative;
+     z-index: -1;
+}
+ .blog-before::before{
+     width: 461px;
+     height: 454px;
+     flex-shrink: 0;
+     background: #003ADB;
+     box-shadow: 0px 3px 12px 0px rgba(64, 129, 255, 0.24);
+     z-index: -1;
+}
+/********************************* * ! Style rules for.client section **********************************/
+ .client-parent{
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 66px;
+     margin-bottom: 154px;
+}
+ .client-sec{
+     background: #0A0F14;
+}
+ .client-sec h2{
+     padding: 64px 0 25px 220px;
+}
+/********************************* * ! Style rules for..contact section **********************************/
+ .contact-sec{
+     position: relative;
+     margin-bottom: 94px;
+}
+ .contact-sec h2{
+     text-align: center;
+}
+ .contact-parent{
+     display: flex;
+     margin-top: 122PX;
+     gap: 310px;
+}
+ form h4{
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin: 25px 0 28px 0;
+}
+ input{
+     width: 586px;
+     flex-shrink: 0;
+     background: none;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     position: relative;
+     color: #2E2E2E;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     padding: 11px 10px;
+}
+ textarea{
+     background: none;
+     color: #2E2E2E;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     width: 600px;
+     height: 100px;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+}
+ .contac-btn{
+     margin-top: 61px;
+}
+ .mobile{
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     margin-bottom: 29px;
+}
+ .p-call{
+     display: flex;
+     gap: 29px;
+     margin: 18px 0;
+}
+ .call-p{
+     border-radius: 30px;
+     background: #003ADB;
+     box-shadow: 0px 0px 10px 0px rgba(64, 106, 255, 0.24);
+     width: 107px;
+     height: 27.203px;
+     flex-shrink: 0;
+     display: grid;
+     place-content: center;
+}
+ .mobile h5{
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+ .message{
+     margin-top: 72px;
+}
+ .contact-box{
+     margin-top: 40px;
+}
+ .contact-box p{
+     margin-left: 50px;
+}
+ .contact-a{
+     position: absolute;
+     border-radius: 69.5px 0px 4px 4px;
+     background: #003ADB;
+     box-shadow: 0px 10px 29px 0px rgba(64, 129, 255, 0.24);
+     width: 136px;
+     height: 102px;
+     flex-shrink: 0;
+     display: grid;
+     place-content: center;
+     top: 729px;
+     left: 1533px;
+}
+/********************************* * ! Style rules for.. footer section **********************************/
+ .footer-tittle{
+     text-align: center;
+}
+ .footer-tittle p{
+     color: #787878;
+     text-align: center;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+     padding-bottom: 42px;
+}
+ footer{
+     background: #0A0F14;
+}
+ .footer-logo{
+     margin: 73px 0 38px 0;
+}
+ .footer-ul a{
+     margin: 0 49px;
+     color: #FFF;
+     font-size: 18px;
+     font-family: Fira Sans;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+ .f-social{
+     margin: 78px 0 62px ;
+}
